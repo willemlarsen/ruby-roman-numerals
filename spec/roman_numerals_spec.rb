@@ -17,7 +17,8 @@ describe "Converting arabic numbers to roman numerals" do
 	  50  => "L",
 	  100 => "C",
 	  500 => "D",
-	  1000 => "M"
+	  1000 => "M",
+	  9 => "IX"
 	  }.each_pair do |arabic, roman|
 	  	it "converts #{arabic} number to #{roman} numeral" do
 	  	expect(convert(arabic)).to eq(roman)
