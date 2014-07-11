@@ -19,6 +19,7 @@ describe "Converting arabic numbers to roman numerals" do
 	  50  => "L",
 	  90 => "XC",
 	  100 => "C",
+	  400 => "CD",
 	  500 => "D",
 	  1000 => "M",
 
