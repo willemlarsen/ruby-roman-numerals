@@ -1,7 +1,9 @@
 CONVERSIONS =
-	[ [5, "V"],
-	[4, "IV"],
-	[1, "I"] ]
+	[[10, "X"],
+     [5, "V"],
+     [4, "IV"],
+     [1, "I"]
+     ]
 
 def convert(in_arabic)
 	return "" if in_arabic.zero?

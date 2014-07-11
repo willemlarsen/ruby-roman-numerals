@@ -13,6 +13,7 @@ describe "Converting arabic numbers to roman numerals" do
 	  4 => "IV",
 	  5 => "V",
 	  6 => "VI",
+	  10 => "X"
 	  }.each_pair do |arabic, roman|
 	  	it "converts #{arabic} number to #{roman} numeral" do
 	  	expect(convert(arabic)).to eq(roman)
