@@ -21,6 +21,7 @@ describe "Converting arabic numbers to roman numerals" do
 	  100 => "C",
 	  400 => "CD",
 	  500 => "D",
+	  900 => "CM",
 	  1000 => "M",
 
 	  }.each_pair do |arabic, roman|
