@@ -9,8 +9,9 @@ describe "Converting arabic numbers to roman numerals" do
 	end
 
 	{ 1 => "I",
+	  2 => "II",
 	  5 => "V",
-	  2 => "II"
+	  4 => "IV"
 	  }.each_pair do |arabic, roman|
 	  	it "converts #{arabic} number to #{roman} numeral" do
 	  	expect(convert(arabic)).to eq(roman)
